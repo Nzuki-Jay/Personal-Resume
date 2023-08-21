@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>About</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b55419cd6c.js"
+              crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/main.css"/>
+         <link rel="stylesheet" href="css/resume.css"/>
+    </head>
+    <body>
+         <!---------------NAV BAR----------->
+         <nav id="nav-bar">
+            <div class="nav-bar__container">
+                <h1>_.NZUKI_</h1>
+                <div>
+                     <ul id="side-menu" class="nav__menu">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="resume.html">About</a>
+                        </li>
+                        <li>
+                            <a href="education.html">Education</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <i onclick="closeMenu()" class="fa-solid fa-xmark" ></i>
+                </ul>
+                <i onclick="openMenu()"class="fa-solid fa-bars" ></i>
+
+                </div>
+
+
+            </div>
+        </nav>
+
+        <!---------------NAV END----------->
+
+         <!---------------ABOUT---------->
+         <section id="about">
+             <div class="about__container">
+                <div class="about__me">
+                    <h1>About Me</h1>
+                    <div class="image">
+                        <div class="about__image">
+                             <img src="css/images/EbdpFzmXQAEA6vG.jpg"/>
+                        </div>
+                    </div>
+                     <h2>Nzuki Mbula</h2>
+                    <h3>Web Developer.</h3>
+                    <h3> Machine Learning & Deep Learning Engineer.</h3>
+                    <p>
+                        I am an ambitious and passionately curious individual,
+                        interested in technology and a lover of philosophy and poetry.
+                        I invest my time in learning
+                        science and technology, building software that is capable of
+                        learning and intelligence, and learning more about the human brain.
+                    </p>
+                </div>
+
+                 <div class="hobbies">
+                     <h1>Hobbies & Interests</h1>
+                     <div class="tab-titles ">
+                         <h3 class="tab-links active-link"
+                         onclick="opentab('arts')">ARTS & PHILOSOPHY</h3>
+                         <h3 class="tab-links" onclick="opentab('sports')">
+                         SPORTS
+                         </h3>
+                          <h3 class="tab-links"
+                         onclick="opentab('science')"> SCIENCE & TECHNOLOGY
+                         </h3>
+                     </div>
+                     <div class="hobbies-content">
+
+                         <div id="arts" class="hobbies__details active-tab">
+                             <h5>Poetry & Philosophy</h5>
+                             <br>
+                             <p>
+                                 "I am an avid reader of philosophy and poetry.
+                                 I enjoy thought-provoking books, and I also write poetry."
+                             </p>
+                             <h5>Music</h5>
+                              <br>
+                             <p>
+                                 Music is the key to my soul.
+                                 I enjoy a variety of music genre and i enjoy singing as well.
+                             </p>
+                         </div>
+
+                          <div id="sports" class="hobbies__details">
+                              <h5>Soccer</h5>
+                               <br>
+                              <p>
+                                  My Always go to sport.
+                                  The only sport I excell at.
+                              </p>
+                              <h5>Gym</h5>
+                               <br>
+                              <p>
+                                  I love working out mostly for fun but also
+                                  to keep fit. Also because of the challenge and
+                                  I like to push my self beyond my limits
+                              </p>
+                          </div>
+                         <div id="science" class="hobbies__details">
+                             <h5>Science</h5>
+                              <br>
+                             <p>
+                                 I am a curious individual. I mostly spend my
+                                 free time learning science , especially Quantum Physics,
+                                 Neuro Science and Consciousness. I also explore other varieties of
+                                 topics that might interest me.
+                             </p>
+                             <h5>Technology</h5>
+                             <br>
+                             <p>
+                                 Artificial Intelligence has been the most captivating technology
+                                I've encountered to me. Most of my day-to-day time is spent learning the technology
+                             </p>
+                         </div>
+
+                     </div>
+
+                 </div>
+             </div>
+         </section>
+
+         <!---------------ABOUT----------->
+        <!---------------FOOTER---------->
+
+        <footer>
+            <small>copyright by @_.Nzuki_</small>
+        </footer>
+
+        <!---------------FOOTER END------>
+        <script src="scripts.js"></script>
+    </body>
+</html>

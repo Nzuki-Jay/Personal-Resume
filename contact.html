@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Contact</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b55419cd6c.js"
+              crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/main.css"/>
+         <link rel="stylesheet" href="css/contact.css"/>
+    </head>
+    <body>
+         <!---------------NAV BAR----------->
+         <nav id="nav-bar">
+            <div class="nav-bar__container">
+                <h1>_.NZUKI_</h1>
+                 <div>
+                     <ul id="side-menu" class="nav__menu">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="resume.html">About</a>
+                        </li>
+                        <li>
+                            <a href="education.html">Education</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <i onclick="closeMenu()" class="fa-solid fa-xmark" ></i>
+                </ul>
+                <i onclick="openMenu()"class="fa-solid fa-bars" ></i>
+
+                </div>
+
+
+            </div>
+        </nav>
+
+        <!---------------NAV END----------->
+
+         <!---------------NAV END----------->
+
+         <section id="contact">
+             <div class="contact__container">
+                 <div class=" contact__details">
+                     <h2>Contact Me</h2>
+                     <div>
+                         <i class="fa-solid fa-phone"></i>
+                         <p>+254 701 373 940</p>
+                     </div>
+                     <div>
+                         <i class="fa-regular fa-envelope"></i>
+                         <p>mbulajay83@gmail.com</p>
+                     </div>
+                     <div>
+                         <i class="fa-solid fa-location-dot"></i>
+                         <p>Juja, Kiambu.</p>
+                     </div>
+                    <div class="header__icons">
+                        <a href="https://www.instagram.com/_.nzuki_/"
+                        target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nzuki-mbula-901668236/"
+                        target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                    </div>
+                 </div>
+
+                  <div class="contact__form">
+                      <form action="https://formspree.io/f/xyyqeoky" method="POST">
+                          <div id="name">
+                              <input id="first" type="text" name="firstname"
+                              placeholder="First Name"/>
+                              <input id="last" type="text" name="lastname"
+                              placeholder="Last Name"/>
+                          </div>
+
+                          <input id="email" type="text" name="Email"
+                          placeholder="Email"/>
+                          <input id="subject" type="text" name="Phone-number"
+                          placeholder="Enter Phone Number"/>
+                          <textarea placeholder="Write Your Message"></textarea>
+                          <button type="submt">Submit</button>
+                      </form>
+                 </div>
+
+             </div>
+
+         </section>
+
+         <!---------------NAV END----------->
+
+        <!---------------FOOTER---------->
+
+        <footer>
+            <small>copyright by @_.Nzuki_</small>
+        </footer>
+
+        <!---------------FOOTER END------>
+        <script src="scripts.js"></script>
+    </body>
+</html>

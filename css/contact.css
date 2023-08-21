@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #c8fdea;
+}
+
+#contact {
+    background-image: url("images/robot-humanoid-working-on-a-computer-in-a-dark-office-3d-rendering-futuristic-ai-robot-ceo-sitting-at-his-office-chair-ai-generated-free-photo.jpg");
+    background-position: center:
+    background-size: cover;
+    height: 90vh;
+    padding: 50px;
+}
+
+.contact__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+}
+
+.contact__details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 30px;
+    background:  lightblue;
+    border-radius: 10px;
+    padding: 30px 60px;
+}
+
+.contact__details h2 {
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.contact__details div {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.contact__details div i {
+    font-size: 20px;
+    margin-right: 10px;
+    color:  #666699;
+}
+
+.contact__details p {
+    color: gray;
+}
+
+.header__icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__icons a {
+    color: #666699;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.header__icons a i {
+    font-size: 30px;
+}
+.header__icons a:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+
+.contact__form {
+    border: 1px solid #666699;
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#name {
+     display: flex;
+     justify-content: space-between;
+     margin: 30px 0;
+}
+
+#name input{
+    padding: 15px 30px;
+    width: 100%;
+    background: lightblue;
+    color:  #666699;
+    border: none;
+}
+
+#name #last {
+    margin-left: 70px;
+
+}
+
+#name #first {
+    margin-right: 70px;
+
+}
+
+form input {
+    padding: 15px 30px;
+    width: 90%;
+    background: lightblue;
+    color:  #666699;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+form #email {
+    margin-bottom: 30px
+}
+
+form #subject {
+    margin-bottom: 30px
+}
+
+form textarea {
+    padding: 15px 30px;
+    width: 90%;
+    background: lightblue;
+    color:  #666699;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+form button {
+    padding: 15px 30px;
+    background: gray;
+    color:  white;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+     background: #666699;
+}
+
+
+@media screen and (max-width: 1024px) {
+        #contact {
+            height: fit-content;
+        }
+
+        .contact__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact__details {
+            align-items: center;
+            padding: 30px;
+        }
+}
+
+
+@media screen and (max-width: 600px) {
+        #contact {
+            height: fit-content;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .contact__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact__details {
+            align-items: center;
+            padding: 30px;
+        }
+
+        .contact__form {
+              width: 300px;
+        }
+
+        #name {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+        }
+
+        #name #first {
+            margin: 0 0 30px 0;
+        }
+
+         #name #last {
+            margin: 0 0 0 0;
+        }
+
+        form {
+            align-items: center;
+        }
+        form input {
+            width: 80%;
+
+        }
+
+        form textarea {
+            width: 80%;
+        }
+}
+
+

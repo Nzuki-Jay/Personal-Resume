@@ -1,0 +1,149 @@
+body {
+    color: #c8dfea;
+}
+
+#education {
+    background-image:  url("images/depositphotos_199948198-stock-photo-white-cyborg-finger-touch-human.jpg");
+    background-size: cover;
+    background-position: center top ;
+    padding: 30px 50px;
+}
+
+.education__container h1 {
+    text-align: center;
+    color: #37474f;
+    font-size: 50px;
+}
+
+.education__items {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    margin: 50px 0;
+}
+
+.education__items .education h2 {
+   color: #c8dfea;
+}
+
+.education #details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.5rem;
+    align-items: flex-start;
+    margin: 30px 0;
+}
+
+.education #details div {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #37404A;
+      border-radius: 10px;
+      padding: 30px 40px;
+      width: 300px;
+      height: 190px;
+      background: #263238;
+}
+
+.education #details div span {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.education #details div span::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: lightblue;
+    margin-right: 10px;
+}
+
+.education #details div h3 {
+    color: #b0bec5;
+    margin: 0 0 15px 15px;
+}
+
+.education #details div p {
+    margin: 0 0 15px 25px;
+}
+
+.education #details div p a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #6699CD;
+}
+
+.education #details div h5 {
+    margin: 0 0 15px 15px;
+    font-size: 15px;
+    color: #6699CD;
+}
+
+.education__items .skills h2 {
+
+}
+
+.skills #skills__details {
+    border: 1px solid #263238;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+#skills__details  div {
+    border: 1px solid #37404A;
+    background: #263238;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#skills__details  div h4 {
+    color: #6699CD;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#skills__details  div ul {
+    margin-left: 20px;
+
+}
+
+#skills__details  div ul li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#skills__details  div ul li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: lightblue;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 1024px) {
+        #education {
+            background-image:  url("images/depositphotos_199948198-stock-photo-white-cyborg-finger-touch-human.jpg");
+            background-size: cover;
+            background-position: center top ;
+            padding: 30px 50px;
+        }
+
+        .education__items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 50px 0;
+        }
+
+        .education #details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px 0;
+        }
+}
